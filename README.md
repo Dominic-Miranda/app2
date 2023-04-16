@@ -1,6 +1,8 @@
 # App2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+It is a simple demonstration of the undo and redo capabilities in a fun memory dots game.
+Just click on the screen and enjoy.
 
 ## Development server
 
