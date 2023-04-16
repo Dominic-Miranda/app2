@@ -1,0 +1,6 @@
+<button [disabled]="points.length===0" (click)="handleUndo()">Undo</button>
+<button [disabled]="undone.length===0" (click)="handleRedo()">Redo</button>
+
+<div class="container" (click)="addPoint($event)">
+  <div *ngFor="let point of points" class="point" [ngStyle]="{ 'left.px':point.x,'top.px':point.y }"></div>
+</div>
